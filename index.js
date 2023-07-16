@@ -142,3 +142,24 @@ window.addEventListener("keydown", (e) => {
       break;
   }
 });
+
+function moveUp() {
+  console.log("Up")
+  inputDir.x = 0;
+  inputDir.y = -1;
+}
+function moveDown() {
+  console.log("Down")
+  inputDir.x = 0;
+  inputDir.y = 1;
+}
+function moveLeft() {
+  console.log("Left")
+  inputDir.x = -1;
+  inputDir.y = 0;
+}
+function moveRight() {
+  console.log("Right")
+  inputDir.x = 1;
+  inputDir.y = 0;
+}
