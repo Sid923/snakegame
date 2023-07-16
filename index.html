@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="body">
-        <div id="scoreBox">Score: 0</div>
-        <div id="hiscoreBox">HiScore: 0</div>
-        <div id="board"></div>
-        
+      <div id="scoreBox">Score: 0</div>
+      <div id="hiscoreBox">HiScore: 0</div>
+      <div id="board"></div>
+      <button class="btn up" id="up" onclick="moveUp()">&uarr;</button>
+      <button class="btn down" id="down" onclick="moveDown()">&darr;</button>
+      <button class="btn left" id="left" onclick="moveLeft()">&larr;</button>
+      <button class="btn right" id="right" onclick="moveRight()">&rarr;</button>
     </div>
-    <!-- <p>Use the arrow keys to move the snake. The game is not designed for devices like smartphones.</p> -->
-    
-</body>
-<script src="index.js"></script>
+  </body>
+  <script src="index.js"></script>
 </html>
